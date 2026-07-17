@@ -70,12 +70,12 @@ public final class Constants {
         public static final double closedLoopRamp = 0.1;
 
         /* Angle Motor PID Values */
-        public static final double angleKP = 3; //10
+        public static final double angleKP = 10; //10
         public static final double angleKI = 0;
         public static final double angleKD = 0;
 
         /* Drive Motor PID Values */
-        public static final double driveKP = SmartDashboard.getNumber("driveKp", 3); // 0.01
+        public static final double driveKP = SmartDashboard.getNumber("driveKp", 1); // 0.01
         public static final double driveKI = 0.0;
         public static final double driveKD = 0.0;
         public static final double driveKF = 0.0;
